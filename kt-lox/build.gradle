@@ -22,4 +22,8 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 }
 
-mainClassName = 'MainKt'
+run {
+//    args = System.getProperty("exec.args", "").split()
+}
+
+mainClassName = 'com.aashley.LoxKt'
